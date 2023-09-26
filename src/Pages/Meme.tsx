@@ -7,19 +7,19 @@ export default function Meme () {
     const images = [
         {
             like: 700,
-            img:  './../Assets/1.png'
+            img:  './../../docs/1,png'
         },
         {
             like: 670,
-            img:  './../Assets/2.png'
+            img:  './../../docs/2.png'
         },
         {
             like: 20,
-            img:  './../Assets/3.png'
+            img:  './../../docs/3.png'
         },
         {
             like: 79,
-            img:  './../Assets/4.png'
+            img:  './../../docs/4.png'
         }
     ]
     return (
