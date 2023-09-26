@@ -22,6 +22,7 @@ export default function Meme () {
             img:  './../../docs/4.png'
         }
     ]
+    
     return (
         <section className="relative">
             <main className="relative top-28">
