@@ -7,7 +7,7 @@ export default function Meme () {
     const images = [
         {
             like: 700,
-            img:  './../../docs/1,png'
+            img:  './../../docs/1.png'
         },
         {
             like: 670,
@@ -22,7 +22,7 @@ export default function Meme () {
             img:  './../../docs/4.png'
         }
     ]
-    
+
     return (
         <section className="relative">
             <main className="relative top-28">
@@ -31,7 +31,7 @@ export default function Meme () {
                         <div key={key} className="card mb-8 shadow-xl rounded-lg bg-white lg:w-[640px] lg:mb-8 lg:m-auto">
                             {/* Image dummy */}
                             <div className="image">
-                                <img src={meme.img} className="rounded-lg m-auto" />
+                                <img src={meme.img} alt="bun ngebug" className="rounded-lg m-auto" />
                             </div>
                             <div className="container-reactions px-6 py-8">
                                 <div className="reactions flex gap-3 text-lg">

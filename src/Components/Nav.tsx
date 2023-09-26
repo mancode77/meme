@@ -2,7 +2,6 @@ import { useState } from "react"
 
 export default function Nav () {
     const [ isPopup, setIsPopup ] = useState(false)
-    console.log(isPopup)
     
     if (isPopup) {
         return (
