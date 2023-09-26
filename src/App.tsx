@@ -3,7 +3,7 @@ import Meme from './Pages/Meme'
 
 function App() {
   return (
-    <main className='bg-gray-200'>
+    <main>
       <Nav />
       <Meme />
     </main>
