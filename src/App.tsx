@@ -1,5 +1,5 @@
-import Nav from './components/Nav'
-import Meme from './pages/Meme'
+import Nav from './Components/Nav'
+import Meme from './Pages/Meme'
 
 function App() {
   return (
