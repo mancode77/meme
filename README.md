@@ -40,13 +40,13 @@
 ## How
 1. Platform?
 - Cross Platform
-2. Design UI 
-![Design UI](https://github.com/mancode77/meme/blob/main/docs/Design%20UI.png)
+2. Design UI
+  ![Design UI](https://github.com/mancode77/meme/blob/main/docs/Design%20UI.png)
 3. Sistem Berjalan
-![Sistem Berjalan](https://github.com/mancode77/meme/blob/main/docs/sistem-berjalan.png)
+  ![Sistem Berjalan](https://github.com/mancode77/meme/blob/main/docs/sistem-berjalan.png)
 4. Storyboard - [Video]
 5. Use Case - Solved
-![Sistem Berjalan](https://github.com/mancode77/meme/blob/main/docs/use%20case.png)
+  ![Sistem Berjalan](https://github.com/mancode77/meme/blob/main/docs/use%20case.png)
 
 ## Design Sistem
 
