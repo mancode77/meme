@@ -1,3 +1,7 @@
+import meme1 from './../Assets/1.png'
+import meme2 from './../Assets/2.png'
+import meme3 from './../Assets/3.png'
+import meme4 from './../Assets/4.png'
 import { useState } from "react"
 
 export default function Meme () {
@@ -7,26 +11,26 @@ export default function Meme () {
     const images = [
         {
             like: 700,
-            img:  './../../docs/1.png'
+            img:  meme1
         },
         {
             like: 670,
-            img:  './../../docs/2.png'
+            img:  meme2
         },
         {
             like: 20,
-            img:  './../../docs/3.png'
+            img:  meme3
         },
         {
             like: 79,
-            img:  './../../docs/4.png'
+            img:  meme4
         }
     ]
 
     return (
         <section className="relative">
             <main className="relative top-28">
-                <div className="cards px-8 ">
+                <div className="cards px-4 text-white md:text-black">
                     {images.map((meme, key) => (
                         <div key={key} className="card bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 mb-8 shadow-xl rounded-lg bg-white lg:w-[640px] lg:mb-8 lg:m-auto">
                             {/* Image dummy */}
